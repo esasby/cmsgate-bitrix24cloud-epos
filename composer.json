@@ -1,0 +1,37 @@
+{
+  "name": "esas/cmsgate-bitrix24cloud-epos",
+  "description": "Bitrix24 (cloud) payment gateway integration for Epos",
+  "keywords": [
+    "cmsgate",
+    "esas",
+    "payment gateway",
+    "bitrix24",
+    "epos",
+    "cloud",
+    "erip",
+    "api"
+  ],
+  "require": {
+    "php": ">= 5.6.0",
+    "esas/cmsgate-epos-lib": "~v1.17.5",
+    "esas/cmsgate-bitrix24cloud-lib": "~v1.18.4",
+    "esas/cmsgate-core": "~v1.17.13",
+    "ext-pdo": "*"
+  },
+  "authors": [
+    {
+      "name": "esas",
+      "email": "support@hutkigrosh.by",
+      "homepage": "https://hutkigrosh.by"
+    }
+  ],
+  "config": {
+    "vendor-dir": "src/cmsgate-bitrix24cloud-epos/vendor"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Esas\\Epos\\": ""
+    }
+  }
+}
